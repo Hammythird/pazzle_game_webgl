@@ -56,11 +56,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/pazzleserver.loader.js";
+      var loaderUrl = buildUrl + "/build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/pazzleserver.data.gz",
-        frameworkUrl: buildUrl + "/pazzleserver.framework.js.gz",
-        codeUrl: buildUrl + "/pazzleserver.wasm.gz",
+        dataUrl: buildUrl + "/build.data.unityweb",
+        frameworkUrl: buildUrl + "/build.framework.js.unityweb",
+        codeUrl: buildUrl + "/build.wasm.unityweb",
+        symbolsUrl: buildUrl + "/build.symbols.json.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NumberValley",
         productName: "Match3-Unity-Game",
